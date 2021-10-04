@@ -13,6 +13,7 @@
 3. Modify config.json (to point to our new database).
 
 4. Modify models/index.js (later).
+  - change line 15 to: `sequelize = new Sequelize(config.url, config);`
 
 ## Creating a model
 

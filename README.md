@@ -23,4 +23,5 @@ Command:
 ## Running the migrations so the tables get created:
 
 Run migrations: `npx sequelize-cli db:migrate`
+
 Undo migrations: `npx sequelize-cli db:migrate:undo:all`

@@ -25,3 +25,21 @@ Command:
 Run migrations: `npx sequelize-cli db:migrate`
 
 Undo migrations: `npx sequelize-cli db:migrate:undo:all`
+
+## Seed files
+
+Create a seed file: `npx sequelize-cli seed:generate --name some-users`
+
+Run seed files `npx sequelize-cli db:seed:all`
+
+## Queries
+
+- We write queries to test if we can get data out 
+- It's mostly useful when testing our relations
+- Check if you can "findAll()" and "findByPk()"
+- If everything is good, you are ready to start your server
+
+## Start an Express Server
+
+- `npm i express`
+- 
